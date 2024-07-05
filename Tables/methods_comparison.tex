@@ -1,0 +1,53 @@
+\begin{table}[h]
+
+    \label{tab:comparison}
+    \begin{adjustbox}{width=0.75\textwidth}
+        \rowcolors{2}{gray!25}{white}
+        % \begin{tabular}{lllTLLT}
+        \begin{tabular}{@{}llccc}
+            \toprule[1pt]
+            \textbf{Approach}                                                                    & \textbf{Name}                                      & \textbf{Framework}         & \textbf{Episodic Training}  & \textbf{Datasets}                  \\ \hline
+            \cellcolor{white}                                                                    &  FRW \parencite{kang2019few}                        & YOLO (no FPN)              & Yes                         & Pascal / COCO                     \\
+            \cellcolor{white}                                                                    & RSI   \parencite{deng2020few}                     & YOLO                       & Yes                         & DIOR / NWPU VHR                    \\
+            \cellcolor{white}                                                                    & MRCNN \parencite{yan2019meta}                     & Faster R-CNN (no FPN)      & Yes                         & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & ARMRD \parencite{fan2020fsod}                     & Faster R-CNN               & No                          & COCO                               \\
+            \cellcolor{white}                                                                    & VEOW  \parencite{xiao2020few}                     & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & SAA \parencite{xiao2020fsod}                    & Faster R-CNN               & No                          & RSOD / NWPU VHR                    \\
+            \cellcolor{white}                                                                    & CACE  \parencite{wallach2019one}                  & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & KT    \parencite{kim2020few}                      & Faster R-CNN               & No                          & Pascal                             \\
+            \cellcolor{white}                                                                    & IFSOD \parencite{ganea2021incremental}            & Center Ne (no FPN)         & Yes                         & Pascal / COCO / Deepfashion        \\
+            \cellcolor{white}                                                                    & WOFT  \parencite{li2020one}                       & FCOS                       & Yes                         & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & FPDI  \parencite{gao2021fast}                     & Faster R-CNN               & No                          & DOTA /  NWPU VHR                   \\
+            \cellcolor{white}                                                                    & MFRCN \parencite{han2021meta}                     & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & MDETR \parencite{zhang2021meta}                   & DETR (no FPN)              & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & DRL   \parencite{liu2021dynamic}                  & Faster R-CNN               & Yes                         & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & DANA  \parencite{chen2021should}                  & Faster R-CNN and RetinaNet & Yes                         & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & SP    \parencite{xu2021few}                       & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & JCACR \parencite{chu2021joint}                    & YOLO                       & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & TI \parencite{li2021transformation}               & Faster R-CNN               & Yes                         & Pascal / COCO                      \\
+            \multirow{-19}{*}[0mm]{\cellcolor{white}\textbf{Attention}}                          & FCT \parencite{han2022few}                        & Faster R-CNN               & No                          & Pascal / COCO                      \\ \hline
+            \cellcolor{white}                                                                    & PNPDet\parencite{zhang2021pnpdet}                 & Center Net (no FPN)        & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & UPE   \parencite{wu2021universal}                 & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \multirow{-3}{*}[0mm]{\cellcolor{white}\parbox{1.5cm}{\textbf{Attention/ Metric}}}   & GD \parencite{liu2021gendet}                      & FCOS                       & Yes                         & Pascal / COCO                      \\ \hline
+            \cellcolor{white}                                                                    & RM    \parencite{karlinsky2019repmet}             & Faster R-CNN               & No                          & Pascal / ImageNet Loc              \\
+            \cellcolor{white}                                                                    & RNI \parencite{yang2020restoring}                 & Faster R-CNN               & No                          & Pascal / ImageNet Loc              \\
+            \cellcolor{white}                                                                    & FSCE  \parencite{sun2021fsce}                     & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & PFRCN \parencite{jeune2021experience}             & Faster R-CNN               & Yes                         & DOTA / DIOR                        \\
+            \cellcolor{white}                                                                    & AD \parencite{cao2021few}                         & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \multirow{-6}{*}{\cellcolor{white}\parbox{1.5cm}{\textbf{Metric Learning}}}          & GDSVD \parencite{wu2021generalized}               & Faster R-CNN               & No                          & Pascal / COCO                      \\ \hline
+            \cellcolor{white}                                                                    & LSTD  \parencite{chen2018lstd}                    & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & WOFG  \parencite{fan2021generalized}              & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & TFA   \parencite{wang2020frustratingly}           & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & MSPSR \parencite{wu2020multi}                     & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & DETRG \parencite{bar2022detreg}                   & Faster R-CNN               & No                          & COCO                               \\
+            \cellcolor{white}                                                                    & HFSOD \parencite{zhang2021hallucination}          & Faster R-CNN               & No                          & Pascal / COCO                      \\
+            \cellcolor{white}                                                                    & DHP \parencite{wolf2021double}                    & Faster R-CNN               & No                          & iSAID /  NWPU VHR                  \\
+            \cellcolor{white}                                                                    & SAM \parencite{huang2021few}                      & Faster R-CNN               & No                          & DIOR / NWPU VHR                    \\
+            \multirow{-9}{*}{\cellcolor{white}\parbox{1.5cm}{\textbf{Fine-tuning}}}              & SIMPL \parencite{xu2022simpl}                     & Faster R-CNN (no FPN)      & No                          & xView (plane only)                 \\ \bottomrule[1pt]
+            \end{tabular}%
+    \end{adjustbox}
+    \caption{Comparison of the FSOD methods from an attention perspective. All
+    frameworks are working with multiscale features except for the one with the
+    mention no FPN.}
+
+\end{table}

@@ -1,0 +1,86 @@
+\begin{subsectionframemod}{Cross-Domain Few-Shot Object Detection}
+        \metroset{block=fill}
+    \vspace{-10mm}
+    \begin{alertblock}{Cross-Domain Few-Shot Object Detection}
+        In Cross-Domain Few-Shot Object Detection (CD-FSOD), two distinct datasets are used during base training and fine-tuning.
+        CD-FSOD is more challenging as the model must not only adapt to new classes but also to new images.
+    \end{alertblock}
+    \vspace{5mm}
+
+    \pause
+
+    \begin{center}
+        \begin{tikzpicture}[
+            squarednode/.style={rectangle, draw=black, thick, minimum size=5mm},
+            node distance=20mm,
+        ]
+            % Nodes
+            \node[squarednode, label=below:{\small Base Dataset}] (maintopic) {COCO Dataset};
+            \node[squarednode, right= of maintopic] (rightsquare) {Detection Model};
+%
+%            % Lines
+            \draw[->] (maintopic.east) -- node[above]{\small{Base Training}}(rightsquare.west);
+        \end{tikzpicture}
+    \end{center}
+
+        \pause
+    \begin{center}
+        \begin{tikzpicture}[
+            squarednode/.style={rectangle, draw=black, thick, minimum size=5mm},
+            node distance=20mm,
+        ]
+            % Nodes
+            \node[squarednode, label=below:{\small Target Dataset}] (maintopic) {DOTA Dataset};
+            \node[squarednode, right= of maintopic] (rightsquare) {Detection Model};
+%
+%            % Lines
+            \draw[->] (maintopic.east) -- node[above]{\small{Finetuning}}(rightsquare.west);
+        \end{tikzpicture}
+    \end{center}
+
+%
+%    \begin{tikzpicture}
+%        \node[anchor=south west,inner sep=0, label=below:{\small Base Dataset}] at (0,0){
+%            \fbox{\parbox[][10mm][c]{0.8\textwidth}{\centering\normalsize COCO Dataset}}
+%        };
+%    \end{tikzpicture}
+%
+%    \begin{columns}
+%        \begin{column}{0.3\textwidth}
+%            \centering
+%
+%            \begin{tikzpicture}
+%                \node[anchor=south west,inner sep=0, label=below:{\small Target Dataset}] at (0,0){
+%                    \includegraphics[width=30mm]{Figures/P0770}
+%                };
+%
+%            \end{tikzpicture}
+%
+%        \end{column}
+%        \pause
+%
+%        \begin{column}{0.3\textwidth}
+%            \only<4->{
+%                \begin{textblock*}{50mm}(57mm,53mm)
+%                    \huge $\longrightarrow$\\
+%                    \small {Base Training}
+%                \end{textblock*}
+%            }
+%
+%        \end{column}
+%        \pause
+%
+%        \begin{column}{0.3\textwidth}
+%            \only<4->{
+%
+%
+%                \begin{tikzpicture}[remember picture,overlay]
+%                    \node[anchor=south west,inner sep=0] at (0,0){%
+%                        \fbox{\parbox[][10mm][c]{0.8\textwidth}{\centering\normalsize Detection model}}
+%                    };
+%                \end{tikzpicture}
+%            }
+%        \end{column}
+%    \end{columns}
+
+\end{subsectionframemod}

@@ -1,0 +1,110 @@
+\documentclass[xcolor=table, 8pt]{beamer}
+
+\usetheme[progressbar=foot, sectionpage=none]{metropolis}           % Use metropolis theme
+
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{appendixnumberbeamer}
+\usepackage{colortbl}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{multirow}
+\usepackage[style=authoryear, labelnumber]{biblatex}
+\usepackage{xparse}
+\usepackage[absolute,overlay]{textpos}
+\usepackage{fontawesome5}
+\usepackage{algorithm,algorithmic}
+\usepackage{nameref}
+\usepackage{adjustbox}
+\usepackage{tikz}
+\usepackage{url}
+\usetikzlibrary{positioning}
+
+\makeatletter
+\newcommand*{\currentname}{\@currentlabelname}
+\makeatother
+\usetikzlibrary{calc,shapes.arrows,decorations.pathreplacing, decorations.text}
+\addbibresource{bibliography.bib}
+
+
+
+\input{template_mod}
+\input{title}
+
+% \renewcommand{\seriesdefault}{ul}
+
+%\setsansfont[BoldFont={Fira Sans Bold},
+%    UprightFont={Fira Sans Medium},
+%    ItalicFont={Fira Sans MediumItalic}]{Fira Sans Book}
+% \setmainfont[BoldFont={Fira Sans SemiBold}]{Fira Sans Book}
+
+\begin{document}
+%    \setsansfont[BoldFont={Fira Sans Bold},
+%        UprightFont={Fira Sans Medium},
+%        ItalicFont={Fira Sans MediumItalic}]{Fira Sans Book}
+    \maketitle
+%    \setsansfont[BoldFont={Fira Sans SemiBold},
+%        UprightFont={Fira Sans Regular},
+%        ItalicFont={Fira Sans Italic}]{Fira Sans Book}
+    \input{Frames/toc}
+
+
+    \section{Principle of Object Detection and Few-Shot Object Detection}\label{sec:od-fsod}
+
+    \subsection{Object Detection}\label{subsec:od}
+    \input{Frames/frame_010}
+
+    \subsection{Few-Shot Object Detection}\label{subsec:few-shot-object-detection}
+    \input{Frames/frame_011}
+
+    \subsection{Cross-Domain Few-Shot Object Detection}\label{subsec:cd-fsod}
+    \input{Frames/frame_012}
+
+
+    \section{Related Work}\label{sec:fsod}
+
+    \subsection{Few-Shot Object Detection}\label{subsec:fsod}
+    \input{Frames/frame_021}
+
+
+    \section{Application on Remote Sensing Images}
+
+    \subsection{Difference Between Natural and Aerial Images}
+    \input{Frames/frame_031}
+
+    \subsection{Performance Analysis}
+    \input{Frames/frame_032}
+
+
+    \section{Proposed Approaches}
+
+    % \subsection{Prototypical Faster R-CNN}
+    % \input{Frames/frame_040.tex}
+
+    \subsection{Diffusion Based Models}
+    \input{Frames/frame_041}
+
+    \subsection{Few-Shot DiffusionDet}
+    \input{Frames/frame_042}
+
+    \subsection{Freezing Sweet-Spot}
+    \input{Frames/frame_043}
+
+    \subsection{Cross-Domain Senarios}
+    \input{Frames/frame_044}
+%
+%    \subsection{Perspectives}
+%
+%
+%    \section{Integration in CAMELEON}
+    \section{Perspectives}
+    \input{Frames/perspectives}
+    \section{Conclusion}
+    \input{Frames/conclusion}
+
+    \usebeamertemplate{endpage}
+
+    \begin{frame}[allowframebreaks=]{References}
+        \printbibliography
+    \end{frame}
+\end{document}

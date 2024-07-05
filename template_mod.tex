@@ -1,0 +1,217 @@
+\setbeamerfont{caption}{size=\tiny}
+
+\usepackage{totcount}
+
+\newcounter{totalsection}
+\regtotcounter{totalsection}
+
+\AtBeginDocument{%
+    \pretocmd{\section}{\refstepcounter{totalsection}}{\typeout{Yes, prepending was successful}}{\typeout{No, prepending was not it was successful}}%
+}%
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.95\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+    % \usebeamerfont{author in head/foot} Pierre Le Jeune - 
+    \hspace*{1em} \usebeamerfont{title in head/foot}\insertshorttitle\hspace*{3em}
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.05\paperwidth,ht=2.25ex,dp=1ex,right]{title in head/foot}%
+
+    \insertframenumber{} \hspace*{1ex}
+  \end{beamercolorbox}}%
+  \vskip0pt%
+  \setlength{\metropolis@progressinheadfoot@linewidth}{1pt}
+  \setlength{\metropolis@titleseparator@linewidth}{1pt}
+  \setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+  \typeout{Section}
+  \typeout{\thesection}
+  \typeout{Tot section}
+  \typeout{\totvalue{totalsection}}
+  % \typeout{Ratio}
+  % \typeout{\ratio{\thesection pt}{\totvalue{totalsection}}
+  \setlength{\metropolis@progressonsectionpage}{%
+    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \begin{beamercolorbox}[wd=\paperwidth]{progress bar in head/foot}
+    \begin{tikzpicture}
+      \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
+      \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
+    \end{tikzpicture}%
+  \end{beamercolorbox}
+
+}
+\makeatother
+
+
+% \makeatletter
+% \setlength{\metropolis@progressinheadfoot@linewidth}{1pt}
+% \setlength{\metropolis@titleseparator@linewidth}{1pt}
+% \setlength{\metropolis@progressonsectionpage@linewidth}{1pt}
+
+% \setbeamertemplate{progress bar in section page}{
+%   \setlength{\metropolis@progressonsectionpage}{%
+%     \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+%   }%
+%   \begin{tikzpicture}
+%     \fill[bg] (0,0) rectangle (\textwidth, \metropolis@progressonsectionpage@linewidth);
+%     \fill[fg] (0,0) rectangle (\metropolis@progressonsectionpage, \metropolis@progressonsectionpage@linewidth);
+%   \end{tikzpicture}%
+% }
+% \makeatother
+
+
+
+
+
+\usepackage{tabto}    
+\newcommand\sectiontab{\tab \hspace{-5.7cm}}
+
+\newenvironment{sectionframe}[1]
+  {
+    \begin{frame}{\thesection. \sectiontab #1}
+  }
+  {
+    \end{frame}
+  }
+
+  \newenvironment{subsectionframe}[1]
+  {
+    \begin{frame}{\thesection.\thesubsection \sectiontab #1 - \currentname}
+  }
+  {
+    \end{frame}
+  }
+
+  \newenvironment{subsectionframemod}[1]
+  {
+    \begin{frame}{\thesection.\thesubsection \sectiontab \currentname}
+  }
+  {
+    \end{frame}
+  }
+\newenvironment{tickenv}
+  {\only{%
+  \setbeamertemplate{itemize item}{\textbullet}
+  \setbeamertemplate{itemize subitem}{\textbullet}
+  \setbeamertemplate{itemize subsubitem}{\textbullet}}}
+  {}
+
+
+% Change bibliography font size
+\renewcommand*{\bibfont}{\tiny}
+% Change bibliography item label size
+\renewcommand{\pgfuseimage}[1]{\scalebox{.75}{\includegraphics{#1}}}
+
+% Change bibliography left margin
+\defbibenvironment{bibliography}
+  {\list{}
+     {\settowidth{\labelwidth}{\usebeamertemplate{bibliography item}}%
+      \setlength{\leftmargin}{\labelwidth}%
+      \setlength{\rightmargin}{\labelwidth}%
+      \setlength{\labelsep}{\biblabelsep}%
+      \addtolength{\leftmargin}{\labelsep}%
+      \setlength{\itemsep}{\bibitemsep}%
+      \setlength{\parsep}{\bibparsep}}}
+  {\endlist}
+  {\item}
+
+
+% \newcommand{\graphicsbox}[3]{
+%   \begin{tikzpicture}
+%     \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[width=0.9\textwidth]{#1}};
+%     \begin{scope}[x={(image.south east)},y={(image.north west)}]
+%         \draw[red,ultra thick] (0.62,0.65) rectangle (0.78,0.75);
+%     \end{scope}
+%   \end{tikzpicture}
+% }
+
+\newcommand{\nth}[2]{
+  \foreach \x [count=\k] in #1 {
+        \ifnum\k=#2
+            \x
+        \fi
+    }
+}
+
+
+\NewDocumentCommand{\graphicsbox}{ m m m m O{40mm} O{0.1mm}}{%
+  \begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[width=#5]{#1}};
+    
+      \begin{scope}[x={(image.south east)},y={(image.north west)}]
+        \foreach \pos [count=\k] in {#2}{
+          \foreach \size [count=\i] in {#3}{
+            \foreach \col [count=\l] in {#4}{
+              \ifnum \k = \i
+                \ifnum \k = \l
+                  \draw[\col , line width=#6] \pos rectangle +\size;
+                \fi
+            \fi
+            }
+            
+          }
+          
+        }
+      \end{scope}
+
+  \end{tikzpicture}
+
+}
+
+\NewDocumentCommand{\graphicsboxh}{ m m m m O{40mm} O{0.1mm}}{%
+  \begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[height=#5]{#1}};
+    
+      \begin{scope}[x={(image.south east)},y={(image.north west)}]
+        \foreach \pos [count=\k] in {#2}{
+          \foreach \size [count=\i] in {#3}{
+            \foreach \col [count=\l] in {#4}{
+              \ifnum \k = \i
+                \ifnum \k = \l
+                  \draw[\col , line width=#6] \pos rectangle +\size;
+                \fi
+            \fi
+            }
+            
+          }
+          
+        }
+      \end{scope}
+
+  \end{tikzpicture}
+
+}
+
+
+\setbeamertemplate{endpage}{%
+    \begin{frame}[plain]
+      \centering
+      \begin{minipage}{22em}
+        % \raggedright
+        \centering
+        \huge
+        \usebeamercolor[fg]{section title}
+        \usebeamerfont{section title}
+        Thank you for your attention\\[-1ex]
+        \usebeamertemplate*{title separator}
+        \par
+      \end{minipage}
+      
+    
+      \begin{textblock*}{50mm}(39mm,57mm)
+        {\large Any questions \faQuestionCircle \\}
+      \end{textblock*}
+
+      \begin{textblock*}{100mm}(-18mm,85mm)
+        {\faEnvelope \quad hicham.talaoubrid1@edu.univ-paris13.fr \\}
+      \end{textblock*}
+      
+    \end{frame}
+}
+
+\newcommand{\bfalert}[1]{\textbf{\alert{#1}}}
+
+\definecolor{l2tiblue}{RGB}{35, 49, 138}
