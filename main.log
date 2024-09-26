@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.5.31)  5 JUL 2024 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.7.9)  26 SEP 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **main.tex
-(/home/hicham/Documents/FSOD_Generality/main.tex
+(/home/hicham/Documents/comité-de-suivi/main.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1274,7 +1274,7 @@ Package: tabto 2018/12/28  v 1.4  Another tabbing mechanism
 \@quotelevel=\count475
 \@quotereset=\count476
 
-(/home/hicham/Documents/FSOD_Generality/main.aux)
+(/home/hicham/Documents/comité-de-suivi/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1357,8 +1357,8 @@ LaTeX Info: Redefining \ref on input line 41.
 LaTeX Info: Redefining \pageref on input line 41.
 LaTeX Info: Redefining \nameref on input line 41.
 
-(/home/hicham/Documents/FSOD_Generality/main.out)
-(/home/hicham/Documents/FSOD_Generality/main.out)
+(/home/hicham/Documents/comité-de-suivi/main.out)
+(/home/hicham/Documents/comité-de-suivi/main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
@@ -1456,12 +1456,12 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(/home/hicham/Documents/FSOD_Generality/main.bbl)
+(/home/hicham/Documents/comité-de-suivi/main.bbl)
 Package biblatex Info: Reference section=0 on input line 41.
 Package biblatex Info: Reference segment=0 on input line 41.
 
 Yes, prepending was successful
-(/home/hicham/Documents/FSOD_Generality/main.nav)
+(/home/hicham/Documents/comité-de-suivi/main.nav)
 Section
 0
 Tot section
@@ -1485,24 +1485,7 @@ Package pdftex.def Info: ./Figures/logo_USPN.png  used on input line 45.
 Overfull \vbox (216.16953pt too high) detected at line 45
  []
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 45.
-
-(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-)
 Overfull \vbox (10.92494pt too high) detected at line 45
  []
 
@@ -1510,7 +1493,7 @@ Overfull \vbox (10.92494pt too high) detected at line 45
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/cose_left.png> <
 ./Figures/l2ti.png> <./Figures/logo_USPN.png>] (./Frames/toc.tex
-(/home/hicham/Documents/FSOD_Generality/main.toc)
+(/home/hicham/Documents/comité-de-suivi/main.toc)
 Section
 0
 Tot section
@@ -1518,7 +1501,26 @@ Tot section
 [2
 
 ]) (./Frames/frame_010.tex
-<Figures/P0770.jpg, id=48, 1616.0375pt x 1363.0925pt>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
+ut line 65.
+
+(/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+<Figures/P0770.jpg, id=44, 1616.0375pt x 1363.0925pt>
 File: Figures/P0770.jpg Graphic file (type jpg)
 <use Figures/P0770.jpg>
 Package pdftex.def Info: Figures/P0770.jpg  used on input line 65.
@@ -1617,17 +1619,17 @@ File: Figures/P0770.jpg Graphic file (type jpg)
 <use Figures/P0770.jpg>
 Package pdftex.def Info: Figures/P0770.jpg  used on input line 72.
 (pdftex.def)             Requested size: 85.35826pt x 71.98564pt.
-<Figures/P0131.jpg, id=101, 1541.76pt x 1284.8pt>
+<Figures/P0131.jpg, id=95, 1541.76pt x 1284.8pt>
 File: Figures/P0131.jpg Graphic file (type jpg)
 <use Figures/P0131.jpg>
 Package pdftex.def Info: Figures/P0131.jpg  used on input line 72.
 (pdftex.def)             Requested size: 42.67912pt x 35.56245pt.
-<Figures/P0168.jpg, id=102, 2312.64pt x 1798.72pt>
+<Figures/P0168.jpg, id=96, 2312.64pt x 1798.72pt>
 File: Figures/P0168.jpg Graphic file (type jpg)
 <use Figures/P0168.jpg>
 Package pdftex.def Info: Figures/P0168.jpg  used on input line 72.
 (pdftex.def)             Requested size: 42.67912pt x 33.18248pt.
-<Figures/P0352.jpg, id=103, 1408.26125pt x 1270.7475pt>
+<Figures/P0352.jpg, id=97, 1408.26125pt x 1270.7475pt>
 File: Figures/P0352.jpg Graphic file (type jpg)
 <use Figures/P0352.jpg>
 Package pdftex.def Info: Figures/P0352.jpg  used on input line 72.
@@ -1730,102 +1732,31 @@ Tot section
 \c@totalsection@totc 
 [15
 
-]) (./Frames/frame_021.tex
-Section
-2
-Tot section
-\c@totalsection@totc 
-[16
-
-] (/home/hicham/Documents/FSOD_Generality/Tables/methods_comparison.tex
-Underfull \hbox (badness 10000) in paragraph at lines 31--31
-[]\OT1/cmss/bx/n/8 Attention/
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
-[]\OT1/cmss/bx/n/8 Metric
- []
-
-)
-Section
-2
-Tot section
-\c@totalsection@totc 
-[17
-
-]) (./Frames/frame_031.tex
-<Figures/object_sizes.png, id=234, 971.3088pt x 546.843pt>
-File: Figures/object_sizes.png Graphic file (type png)
-<use Figures/object_sizes.png>
-Package pdftex.def Info: Figures/object_sizes.png  used on input line 16.
-(pdftex.def)             Requested size: 245.83282pt x 138.39592pt.
-
-Section
-3
-Tot section
-\c@totalsection@totc 
-[18
-
- <./Figures/object_sizes.png>]) (./Frames/frame_032.tex
-<Figures/dataset_comparison.png, id=252, 937.5828pt x 645.612pt>
-File: Figures/dataset_comparison.png Graphic file (type png)
-<use Figures/dataset_comparison.png>
-Package pdftex.def Info: Figures/dataset_comparison.png  used on input line 13.
-
-(pdftex.def)             Requested size: 245.83282pt x 169.27373pt.
-
-Overfull \vbox (9.48795pt too high) detected at line 13
- []
-
-Section
-3
-Tot section
-\c@totalsection@totc 
-[19
-
- <./Figures/dataset_comparison.png>]
-<Figures/performance_comparison.png, id=265, 1216.0632pt x 790.152pt>
-File: Figures/performance_comparison.png Graphic file (type png)
-<use Figures/performance_comparison.png>
-Package pdftex.def Info: Figures/performance_comparison.png  used on input line
- 23.
-(pdftex.def)             Requested size: 261.19826pt x 169.71057pt.
-
-Overfull \vbox (9.92479pt too high) detected at line 23
- []
-
-Section
-3
-Tot section
-\c@totalsection@totc 
-[20
-
- <./Figures/performance_comparison.png>]) (./Frames/frame_041.tex
-<Figures/teaser_diffusion.png, id=275, 1247.66125pt x 620.3175pt>
+]) (./Frames/frame_041.tex
+<Figures/teaser_diffusion.png, id=137, 1247.66125pt x 620.3175pt>
 File: Figures/teaser_diffusion.png Graphic file (type png)
 <use Figures/teaser_diffusion.png>
 Package pdftex.def Info: Figures/teaser_diffusion.png  used on input line 22.
 (pdftex.def)             Requested size: 215.10196pt x 106.93863pt.
 
 Section
-4
+2
 Tot section
 \c@totalsection@totc 
-[21
+[16
 
  <./Figures/teaser_diffusion.png>]
-<Figures/DiffusionDet.png, id=289, 1042.1334pt x 335.3328pt>
+<Figures/DiffusionDet.png, id=151, 1042.1334pt x 335.3328pt>
 File: Figures/DiffusionDet.png Graphic file (type png)
 <use Figures/DiffusionDet.png>
 Package pdftex.def Info: Figures/DiffusionDet.png  used on input line 35.
 (pdftex.def)             Requested size: 291.92444pt x 93.93347pt.
 
 Section
-4
+2
 Tot section
 \c@totalsection@totc 
-[22
+[17
 
  <./Figures/DiffusionDet.png>]) (./Frames/frame_042.tex
 ./Frames/frame_042.tex:28: Undefined control sequence.
@@ -1840,10 +1771,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Section
-4
+2
 Tot section
 \c@totalsection@totc 
-[23
+[18
 
 ]
 ./Frames/frame_042.tex:28: Undefined control sequence.
@@ -1858,24 +1789,54 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Section
-4
+2
 Tot section
 \c@totalsection@totc 
-[24
+[19
+
+]) (./Frames/frame_0435.tex
+
+./Frames/frame_0435.tex:10: LaTeX Error: File `Figures/perf_vs_shots_diff' not 
+found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \end{subsectionframemod}
+                             
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation 'lejeune2023xqsa' on page 20 undefined on input line 10
+.
+
+
+LaTeX Warning: Citation 'lejeune2023xqsa' on page 20 undefined on input line 10
+.
+
+Section
+3
+Tot section
+\c@totalsection@totc 
+[20
 
 ]) (./Frames/frame_043.tex
 Section
-4
+3
 Tot section
 \c@totalsection@totc 
-[25
+[21
 
 ]) (./Frames/frame_044.tex
 Section
-4
+3
 Tot section
 \c@totalsection@totc 
-[26
+[22
 
 ]
 ./Frames/frame_044.tex:51: Undefined control sequence.
@@ -1901,258 +1862,251 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 Section
+3
+Tot section
+\c@totalsection@totc 
+[23
+
+]) (./Frames/conclusion.tex
+Section
 4
+Tot section
+\c@totalsection@totc 
+[24
+
+])
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 88.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 88.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
+[25
+
+]
+<beamericonarticle.pdf, id=242, 11.00009pt x 14.0003pt>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <5> not available
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 92.
+
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 92.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+Section
+5
+Tot section
+\c@totalsection@totc 
+[26
+
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+Overfull \vbox (0.28847pt too high) detected at line 92
+ []
+
+Section
+5
 Tot section
 \c@totalsection@totc 
 [27
 
-]) (./Frames/perspectives.tex
+
+]
 Section
 5
 Tot section
 \c@totalsection@totc 
 [28
 
-]) (./Frames/conclusion.tex
+
+]
 Section
-6
+5
 Tot section
 \c@totalsection@totc 
 [29
-
-])
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 105.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 105.
-
-(/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-[30
-
-]
-<beamericonarticle.pdf, id=369, 11.00009pt x 14.0003pt>
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <5> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 109.
-
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-File: beamericonarticle.pdf Graphic file (type pdf)
-<use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 109.
-(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-Section
-7
-Tot section
-\c@totalsection@totc 
-[31
-
- </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Overfull \vbox (0.28847pt too high) detected at line 109
- []
-
-Section
-7
-Tot section
-\c@totalsection@totc 
-[32
-
-
-]
-Section
-7
-Tot section
-\c@totalsection@totc 
-[33
-
-
-]
-Section
-7
-Tot section
-\c@totalsection@totc 
-[34
 
 
 ]
@@ -2165,25 +2119,34 @@ Tot section
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
- (/home/hicham/Documents/FSOD_Generality/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
+ (/home/hicham/Documents/comité-de-suivi/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35973 strings out of 481239
- 735829 string characters out of 5920377
- 1369749 words of memory out of 5000000
- 50308 multiletter control sequences out of 15000+600000
+ 35876 strings out of 481239
+ 734414 string characters out of 5920378
+ 1347406 words of memory out of 5000000
+ 50235 multiletter control sequences out of 15000+600000
  546537 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,15n,100p,1872b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 71i,16n,100p,1872b,1854s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/us
 r/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}</usr/shar
 e/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
@@ -2199,11 +2162,11 @@ c/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on /home/hicham/Documents/FSOD_Generality/main.pdf (34 pages, 54
-31914 bytes).
+Output written on /home/hicham/Documents/comité-de-suivi/main.pdf (29 pages, 4
+625947 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
- 400 compressed objects within 4 object streams
- 144 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 402 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
 
