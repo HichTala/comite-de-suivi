@@ -1,9 +1,9 @@
 \begin{subsectionframemod}{Cross-Domain Few-Shot Object Detection}
         \metroset{block=fill}
     \vspace{-10mm}
-    \begin{alertblock}{Cross-Domain Few-Shot Object Detection}
-        In Cross-Domain Few-Shot Object Detection (CD-FSOD), two distinct datasets are used during base training and fine-tuning.
-        CD-FSOD is more challenging as the model must not only adapt to new classes but also to new images.
+    \begin{alertblock}{Détection d'objet few-shot cross-domain}
+        Dans la détection d'objets à faible échantillon inter-domaines (CD-FSOD), deux ensembles de données distincts sont utilisés pendant l'entraînement de base et l'affinage.
+        La CD-FSOD est plus difficile, car le modèle doit non seulement s'adapter à de nouvelles classes, mais aussi à de nouvelles images.
     \end{alertblock}
     \vspace{5mm}
 
@@ -15,8 +15,8 @@
             node distance=20mm,
         ]
             % Nodes
-            \node[squarednode, label=below:{\small Base Dataset}] (maintopic) {COCO Dataset};
-            \node[squarednode, right= of maintopic] (rightsquare) {Detection Model};
+            \node[squarednode, label=below:{\small Dataset de base}] (maintopic) {COCO Dataset};
+            \node[squarednode, right= of maintopic] (rightsquare) {Modèle de détection};
 %
 %            % Lines
             \draw[->] (maintopic.east) -- node[above]{\small{Base Training}}(rightsquare.west);
@@ -30,8 +30,8 @@
             node distance=20mm,
         ]
             % Nodes
-            \node[squarednode, label=below:{\small Target Dataset}] (maintopic) {DOTA Dataset};
-            \node[squarednode, right= of maintopic] (rightsquare) {Detection Model};
+            \node[squarednode, label=below:{\small Dataset cible}] (maintopic) {DOTA Dataset};
+            \node[squarednode, right= of maintopic] (rightsquare) {Modèl de détection};
 %
 %            % Lines
             \draw[->] (maintopic.east) -- node[above]{\small{Finetuning}}(rightsquare.west);
