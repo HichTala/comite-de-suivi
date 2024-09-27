@@ -5,16 +5,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@slide {subsec:cd-fsod}{13}
 \defcounter {refsection}{0}\relax 
-\beamer@slide {fig:diffusion}{16}
-\defcounter {refsection}{0}\relax 
-\beamer@slide {fig:diffusiondet}{17}
-\defcounter {refsection}{0}\relax 
-\beamer@slide {eq:frezze}{18}
-\defcounter {refsection}{0}\relax 
-\beamer@slide {fig:diff_perf_vs_shot}{20}
-\defcounter {refsection}{0}\relax 
-\beamer@slide {tab:diff_freezing_sweetspot}{21}
-\defcounter {refsection}{0}\relax 
-\beamer@slide {tab:cd_fsod_results}{22}
+\beamer@slide {tab:comparison}{17}
 \defcounter {refsection}{0}\relax 
 \beamer@slide {tab:cd_fsod_dota2dior}{23}

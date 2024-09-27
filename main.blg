@@ -1,17 +1,19 @@
 [0] Config.pm:304> INFO - This is Biber 2.14 (beta)
 [0] Config.pm:307> INFO - Logfile is 'main.blg'
-[45] biber:322> INFO - === ven. juil.  5, 2024, 12:16:55
-[53] Biber.pm:415> INFO - Reading '/home/hicham/Documents/FSOD_Generality/main.bcf'
-[96] Biber.pm:943> INFO - Found 45 citekeys in bib section 0
-[104] Biber.pm:4256> INFO - Processing section 0
-[105] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
-[105] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
-[110] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
-[118] bibtex.pm:1653> INFO - LaTeX decoding ...
-[368] bibtex.pm:1471> INFO - Found BibTeX data source '/home/hicham/Documents/FSOD_Generality/bibliography.bib'
-[699] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[699] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[699] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[699] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[731] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[760] bbl.pm:755> INFO - Output to main.bbl
+[44] biber:322> INFO - === ven. sept. 27, 2024, 10:29:11
+[52] Biber.pm:415> INFO - Reading 'main.bcf'
+[92] Biber.pm:943> INFO - Found 42 citekeys in bib section 0
+[100] Biber.pm:4256> INFO - Processing section 0
+[101] Utils.pm:75> INFO - Globbing data source 'bibliography.bib'
+[101] Utils.pm:91> INFO - Globbed data source 'bibliography.bib' to bibliography.bib
+[107] Biber.pm:4455> INFO - Looking for bibtex format file 'bibliography.bib' for section 0
+[114] bibtex.pm:1653> INFO - LaTeX decoding ...
+[358] bibtex.pm:1471> INFO - Found BibTeX data source 'bibliography.bib'
+[582] Utils.pm:293> WARN - I didn't find a database entry for 'lora' (section 0)
+[644] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[644] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[644] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[644] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[675] bbl.pm:652> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[702] bbl.pm:755> INFO - Output to main.bbl
+[702] Biber.pm:128> INFO - WARNINGS: 1

@@ -203,49 +203,6 @@
       \field{volume}{32}
       \field{year}{2018}
     \endentry
-    \entry{chen2022diffusiondet}{article}{}
-      \name{author}{4}{}{%
-        {{un=2,uniquepart=given,hash=4ed921ffda9bf6435c76f730c9718e21}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Shoufa},
-           giveni={S\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=d52526d5deefaf143df9015f52a0d3cb}{%
-           family={Sun},
-           familyi={S\bibinitperiod},
-           given={Peize},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=18962418b22f6c20d025424e680bbbd7}{%
-           family={Song},
-           familyi={S\bibinitperiod},
-           given={Yibing},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e85079235b2a8c88ee9360e55b37523a}{%
-           family={Luo},
-           familyi={L\bibinitperiod},
-           given={Ping},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7ff1525fae71cb9eb06e41a38093aced}
-      \strng{fullhash}{586999ae9a5feb459c19d9aac3157fce}
-      \strng{bibnamehash}{7ff1525fae71cb9eb06e41a38093aced}
-      \strng{authorbibnamehash}{7ff1525fae71cb9eb06e41a38093aced}
-      \strng{authornamehash}{7ff1525fae71cb9eb06e41a38093aced}
-      \strng{authorfullhash}{586999ae9a5feb459c19d9aac3157fce}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{arXiv preprint arXiv:2211.09788}
-      \field{title}{Diffusiondet: Diffusion model for object detection}
-      \field{year}{2022}
-    \endentry
     \entry{chen2021should}{article}{}
       \name{author}{8}{}{%
         {{un=1,uniquepart=given,hash=5e26710904072a10f6f685d3a25378e9}{%
@@ -937,12 +894,12 @@
            given={Hong-Gyu},
            giveni={H\bibinithyphendelim G\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=1a06d15430796bd2519e5e52a8af269f}{%
+        {{un=0,uniquepart=base,hash=1a06d15430796bd2519e5e52a8af269f}{%
            family={Lee},
            familyi={L\bibinitperiod},
            given={Seong-Whan},
            giveni={S\bibinithyphendelim W\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{3656498e9f39c77ccfe2b13b84872172}
       \strng{fullhash}{3656498e9f39c77ccfe2b13b84872172}
@@ -997,72 +954,6 @@
       \verb{doi}
       \verb 10.23919/EUSIPCO55093.2022.9909878
       \endverb
-    \endentry
-    \entry{lee2022rethinking}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{un=1,uniquepart=given,hash=8044f34173b6a1b90718dcfeca1ea2d1}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Kibok},
-           giveni={K\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=ffc6e98cdb5fcaae9b79cd4ce7d15efa}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Hao},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=33450e1a411d451a881d34cab9f30ca1}{%
-           family={Chakraborty},
-           familyi={C\bibinitperiod},
-           given={Satyaki},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=60cd72430896952375fa93d72938cac6}{%
-           family={Cai},
-           familyi={C\bibinitperiod},
-           given={Zhaowei},
-           giveni={Z\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2aef42d72cecf8b545fac2899b5cdac5}{%
-           family={Swaminathan},
-           familyi={S\bibinitperiod},
-           given={Gurumurthy},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4055062d911bcb0a5f2ae0b6116b418b}{%
-           family={Ravichandran},
-           familyi={R\bibinitperiod},
-           given={Avinash},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b2b031f9790bb781a32ecbfbe2f8d724}{%
-           family={Dabeer},
-           familyi={D\bibinitperiod},
-           given={Onkar},
-           giveni={O\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{89bcb1a4bea71318597bcb495c3aca63}
-      \strng{fullhash}{5b4ddca99a56206e2f36c3e857e3a9e1}
-      \strng{bibnamehash}{89bcb1a4bea71318597bcb495c3aca63}
-      \strng{authorbibnamehash}{89bcb1a4bea71318597bcb495c3aca63}
-      \strng{authornamehash}{89bcb1a4bea71318597bcb495c3aca63}
-      \strng{authorfullhash}{5b4ddca99a56206e2f36c3e857e3a9e1}
-      \field{sortinit}{L}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Computer Vision--ECCV 2022: 17th European Conference, Tel Aviv, Israel, October 23--27, 2022, Proceedings, Part XX}
-      \field{title}{Rethinking Few-Shot Object Detection on a Multi-Domain Benchmark}
-      \field{year}{2022}
-      \field{pages}{366\bibrangedash 382}
-      \range{pages}{17}
     \endentry
     \entry{li2021transformation}{inproceedings}{}
       \name{author}{2}{}{%
@@ -1335,12 +1226,12 @@
            given={Shenghao},
            giveni={S\bibinitperiod},
            givenun=0}}%
-        {{un=2,uniquepart=given,hash=09147038eb9cd108de334a5bc7842262}{%
+        {{un=1,uniquepart=given,hash=09147038eb9cd108de334a5bc7842262}{%
            family={Chen},
            familyi={C\bibinitperiod},
            given={Song},
            giveni={S\bibinitperiod},
-           givenun=2}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=3e402fb7658f63e021c0825f57d9ee06}{%
            family={Ye},
            familyi={Y\bibinitperiod},
@@ -1369,69 +1260,6 @@
       \field{journaltitle}{arXiv preprint arXiv:2108.02235}
       \field{title}{Dynamic Relevance Learning for Few-Shot Object Detection}
       \field{year}{2021}
-    \endentry
-    \entry{miao2019sixray}{inproceedings}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=a01d35e92ed42da9ec71b28cf0378f8f}{%
-           family={Miao},
-           familyi={M\bibinitperiod},
-           given={Caijing},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=465fac3aefe5aab59dc6ab47670a1bdd}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={Lingxi},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=958bf177c2173bed127886b16f8fbb24}{%
-           family={Wan},
-           familyi={W\bibinitperiod},
-           given={Fang},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a2aff4e27d0dec9effa357cca82cfa9e}{%
-           family={Su},
-           familyi={S\bibinitperiod},
-           given={Chi},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=382491227ddd88bcc0ffa15b8ff9c5d5}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Hongye},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=44d0fe498e93e8bc01bf70b4b6da4f5c}{%
-           family={Jiao},
-           familyi={J\bibinitperiod},
-           given={Jianbin},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b5b80c0ecc0c08492b770dd50a36a2fb}{%
-           family={Ye},
-           familyi={Y\bibinitperiod},
-           given={Qixiang},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e214e9307a130134db868754e25fdc0d}
-      \strng{fullhash}{9ca3426bc67a6df4c4326952606718f6}
-      \strng{bibnamehash}{e214e9307a130134db868754e25fdc0d}
-      \strng{authorbibnamehash}{e214e9307a130134db868754e25fdc0d}
-      \strng{authornamehash}{e214e9307a130134db868754e25fdc0d}
-      \strng{authorfullhash}{9ca3426bc67a6df4c4326952606718f6}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of the IEEE/CVF conference on computer vision and pattern recognition}
-      \field{title}{Sixray: A large-scale security inspection x-ray benchmark for prohibited item discovery in overlapping images}
-      \field{year}{2019}
-      \field{pages}{2119\bibrangedash 2128}
-      \range{pages}{10}
     \endentry
     \entry{sun2021fsce}{inproceedings}{}
       \name{author}{5}{}{%
@@ -2291,73 +2119,8 @@
       \field{pages}{13008\bibrangedash 13017}
       \range{pages}{10}
     \endentry
-    \entry{pengfei2021visdrone}{article}{}
-      \name{author}{7}{}{%
-        {{un=0,uniquepart=base,hash=3186f5ead79be8894d8c19bcc4c5822e}{%
-           family={Zhu},
-           familyi={Z\bibinitperiod},
-           given={Pengfei},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=fa4f86f9e457ddf68bce586c7c36025e}{%
-           family={Wen},
-           familyi={W\bibinitperiod},
-           given={Longyin},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9f9565bfd02af5460e9d6eede33ce873}{%
-           family={Du},
-           familyi={D\bibinitperiod},
-           given={Dawei},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=abedd5a4f6966da6d587648df2129f33}{%
-           family={Bian},
-           familyi={B\bibinitperiod},
-           given={Xiao},
-           giveni={X\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6befcc9797bc222eee6ab4b46ca61d7e}{%
-           family={Fan},
-           familyi={F\bibinitperiod},
-           given={Heng},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b8a0fb91ee1e348c1963577d64c2b566}{%
-           family={Hu},
-           familyi={H\bibinitperiod},
-           given={Qinghua},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc86801edf24b9379fb947d2c2116b4b}{%
-           family={Ling},
-           familyi={L\bibinitperiod},
-           given={Haibin},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e290ec1afd8324b218709895a7a63fae}
-      \strng{fullhash}{51877f2531e2afe42b6fc6328f1486ad}
-      \strng{bibnamehash}{e290ec1afd8324b218709895a7a63fae}
-      \strng{authorbibnamehash}{e290ec1afd8324b218709895a7a63fae}
-      \strng{authornamehash}{e290ec1afd8324b218709895a7a63fae}
-      \strng{authorfullhash}{51877f2531e2afe42b6fc6328f1486ad}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{title}{Detection and Tracking Meet Drones Challenge}
-      \field{year}{2021}
-      \field{pages}{1\bibrangedash 1}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2021.3119563
-      \endverb
-    \endentry
   \enddatalist
+  \missing{lora}
 \endrefsection
 \endinput
 
