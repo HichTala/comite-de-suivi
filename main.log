@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.7.9)  30 SEP 2024 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.7.9)  30 SEP 2024 16:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1456,15 +1456,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-(/home/hicham/Documents/comité-de-suivi/main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                lora
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(/home/hicham/Documents/comité-de-suivi/main.bbl)
 Package biblatex Info: Reference section=0 on input line 41.
 Package biblatex Info: Reference segment=0 on input line 41.
 
@@ -1835,24 +1827,13 @@ Tot section
 [22
 
  <./Figures/lora.png>]) (./Frames/frame_svf.tex
+<Figures/svf.png, id=300, 632.3625pt x 655.44875pt>
+File: Figures/svf.png Graphic file (type png)
+<use Figures/svf.png>
+Package pdftex.def Info: Figures/svf.png  used on input line 14.
+(pdftex.def)             Requested size: 122.91406pt x 127.39693pt.
 
-LaTeX Warning: File `Figures/svf.png' not found on input line 15.
-
-
-./Frames/frame_svf.tex:15: Package pdftex.def Error: File `Figures/svf.png' not
- found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \end{subsectionframemod}
-                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \vbox (4.99152pt too high) detected at line 15
+Overfull \vbox (4.44153pt too high) detected at line 14
  []
 
 Section
@@ -1861,7 +1842,7 @@ Tot section
 \c@totalsection@totc 
 [23
 
-]) (./Frames/frame_publications.tex
+ <./Figures/svf.png>]) (./Frames/frame_publications.tex
 Section
 5
 Tot section
@@ -1884,22 +1865,22 @@ Tot section
 [26
 
 ]) (./Frames/frame_variances.tex
-<Figures/con_sep.png, id=335, 201.48pt x 130.086pt>
+<Figures/con_sep.png, id=342, 201.48pt x 130.086pt>
 File: Figures/con_sep.png Graphic file (type png)
 <use Figures/con_sep.png>
 Package pdftex.def Info: Figures/con_sep.png  used on input line 18.
 (pdftex.def)             Requested size: 50.36987pt x 32.52141pt.
-<Figures/ncon_sep.png, id=336, 374.052pt x 230.388pt>
+<Figures/ncon_sep.png, id=343, 374.052pt x 230.388pt>
 File: Figures/ncon_sep.png Graphic file (type png)
 <use Figures/ncon_sep.png>
 Package pdftex.def Info: Figures/ncon_sep.png  used on input line 18.
 (pdftex.def)             Requested size: 93.51277pt x 57.59685pt.
-<Figures/con_nsep.png, id=337, 159.87pt x 128.334pt>
+<Figures/con_nsep.png, id=344, 159.87pt x 128.334pt>
 File: Figures/con_nsep.png Graphic file (type png)
 <use Figures/con_nsep.png>
 Package pdftex.def Info: Figures/con_nsep.png  used on input line 18.
 (pdftex.def)             Requested size: 39.96739pt x 32.08342pt.
-<Figures/ncon_nsep.png, id=338, 297.183pt x 213.744pt>
+<Figures/ncon_nsep.png, id=345, 297.183pt x 213.744pt>
 File: Figures/ncon_nsep.png Graphic file (type png)
 <use Figures/ncon_nsep.png>
 Package pdftex.def Info: Figures/ncon_nsep.png  used on input line 18.
@@ -1913,12 +1894,12 @@ Tot section
 
  <./Figures/con_sep.png> <./Figures/ncon_sep.png> <./Figures/con_nsep.png> <./F
 igures/ncon_nsep.png>]) (./Frames/frame_representation.tex
-<Figures/deepfruits.png, id=352, 602.7318pt x 587.5551pt>
+<Figures/deepfruits.png, id=359, 602.7318pt x 587.5551pt>
 File: Figures/deepfruits.png Graphic file (type png)
 <use Figures/deepfruits.png>
 Package pdftex.def Info: Figures/deepfruits.png  used on input line 20.
 (pdftex.def)             Requested size: 150.57372pt x 146.78082pt.
-<Figures/2d_class_plot.png, id=353, 596.2275pt x 587.5551pt>
+<Figures/2d_class_plot.png, id=360, 596.2275pt x 587.5551pt>
 File: Figures/2d_class_plot.png Graphic file (type png)
 <use Figures/2d_class_plot.png>
 Package pdftex.def Info: Figures/2d_class_plot.png  used on input line 20.
@@ -1932,27 +1913,27 @@ Tot section
 
  <./Figures/deepfruits.png> <./Figures/2d_class_plot.png>])
 (./Frames/frame_loracurves.tex
-<Figures/lora1.png, id=367, 2537.48pt x 1332.98pt>
+<Figures/lora1.png, id=374, 2537.48pt x 1332.98pt>
 File: Figures/lora1.png Graphic file (type png)
 <use Figures/lora1.png>
 Package pdftex.def Info: Figures/lora1.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora2.png, id=368, 2537.48pt x 1332.98pt>
+<Figures/lora2.png, id=375, 2537.48pt x 1332.98pt>
 File: Figures/lora2.png Graphic file (type png)
 <use Figures/lora2.png>
 Package pdftex.def Info: Figures/lora2.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora3.png, id=369, 2537.48pt x 1332.98pt>
+<Figures/lora3.png, id=376, 2537.48pt x 1332.98pt>
 File: Figures/lora3.png Graphic file (type png)
 <use Figures/lora3.png>
 Package pdftex.def Info: Figures/lora3.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora4.png, id=370, 2537.48pt x 1332.98pt>
+<Figures/lora4.png, id=377, 2537.48pt x 1332.98pt>
 File: Figures/lora4.png Graphic file (type png)
 <use Figures/lora4.png>
 Package pdftex.def Info: Figures/lora4.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora5.png, id=371, 2537.48pt x 1332.98pt>
+<Figures/lora5.png, id=378, 2537.48pt x 1332.98pt>
 File: Figures/lora5.png Graphic file (type png)
 <use Figures/lora5.png>
 Package pdftex.def Info: Figures/lora5.png  used on input line 23.
@@ -1984,7 +1965,7 @@ nput line 114.
 [31
 
 ]
-<beamericonarticle.pdf, id=401, 11.00009pt x 14.0003pt>
+<beamericonarticle.pdf, id=408, 11.00009pt x 14.0003pt>
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
 Package pdftex.def Info: beamericonarticle.pdf  used on input line 118.
@@ -2010,6 +1991,14 @@ Package pdftex.def Info: beamericonarticle.pdf  used on input line 118.
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <5> not available
 (Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 118.
 
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 118.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 118.
+(pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
 Package pdftex.def Info: beamericonarticle.pdf  used on input line 118.
@@ -2210,11 +2199,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36124 strings out of 481239
- 738698 string characters out of 5920378
- 1370670 words of memory out of 5000000
- 50404 multiletter control sequences out of 15000+600000
- 547293 words of font info for 77 fonts, out of 8000000 for 9000
+ 36110 strings out of 481239
+ 738703 string characters out of 5920378
+ 1370796 words of memory out of 5000000
+ 50400 multiletter control sequences out of 15000+600000
+ 547125 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,16n,100p,1872b,1888s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/us
@@ -2230,10 +2219,10 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt8.pfb>
 Output written on /home/hicham/Documents/comité-de-suivi/main.pdf (35 pages, 4
-514394 bytes).
+539435 bytes).
 PDF statistics:
- 516 PDF objects out of 1000 (max. 8388607)
- 408 compressed objects within 5 object streams
- 161 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 528 PDF objects out of 1000 (max. 8388607)
+ 416 compressed objects within 5 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
 

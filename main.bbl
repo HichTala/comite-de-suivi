@@ -650,6 +650,78 @@
       \field{title}{One-Shot Object Detection with Co-Attention and Co-Excitation}
       \field{year}{2019}
     \endentry
+    \entry{edward2021lora}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=e6a95d07b8ae7f14e4eb777c6980a059}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Edward\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1701c0f05662e92cf52cfc8c16437496}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Yelong},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab0fdbc1586103dda7ac5e0852e5b2c3}{%
+           family={Wallis},
+           familyi={W\bibinitperiod},
+           given={Phillip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eaa5cc98b7f19b4ce07c832213a13b9d}{%
+           family={Allen-Zhu},
+           familyi={A\bibinithyphendelim Z\bibinitperiod},
+           given={Zeyuan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d2c91b24f885b22d373a892a768abc8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yuanzhi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b654b88ecd4c3ff1ea29da275bce701c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shean},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05d71a9c5e7ac79222e01a55af0ccb93}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Weizhu},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d775178c34083951ab1e07df578582c3}
+      \strng{fullhash}{e7bf2bfb0f65aefdd7f8fa9a0e13da1c}
+      \strng{bibnamehash}{d775178c34083951ab1e07df578582c3}
+      \strng{authorbibnamehash}{d775178c34083951ab1e07df578582c3}
+      \strng{authornamehash}{d775178c34083951ab1e07df578582c3}
+      \strng{authorfullhash}{e7bf2bfb0f65aefdd7f8fa9a0e13da1c}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{LoRA: Low-Rank Adaptation of Large Language Models}
+      \field{volume}{abs/2106.09685}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2106.09685
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2106.09685
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2106.09685
+      \endverb
+    \endentry
     \entry{huang2021few}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=84870a582d04b05795c7b010fdda1dbb}{%
@@ -1263,12 +1335,12 @@
     \endentry
     \entry{sun2021fsce}{inproceedings}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=115afe6cc7f667cde499464315bf3ce5}{%
+        {{un=1,uniquepart=given,hash=115afe6cc7f667cde499464315bf3ce5}{%
            family={Sun},
            familyi={S\bibinitperiod},
            given={Bo},
            giveni={B\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=d389793f1fd43fe6a7c3a218960d0a45}{%
            family={Li},
            familyi={L\bibinitperiod},
@@ -1311,6 +1383,89 @@
       \field{year}{2021}
       \field{pages}{7352\bibrangedash 7362}
       \range{pages}{11}
+    \endentry
+    \entry{sun2022singular}{article}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=fc4d4ae7345e7635d4855be6d172f402}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yanpeng},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8b8805250fb5a57cfbae360547a18706}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7410901c5434a034a59833917913abf}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Xiangyu},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c33641e67eeaefc87b7821dc9b51ff90}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=edb97398112ee260231c1b7e506733c3}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Haocheng},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c83d481b4ade892accdc4dce6c38618f}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Junyu},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=515f5244812213e3026ec84432c70b0a}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Errui},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13881696d32b0b7c16d8963e496f2e34}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c8ffd2450e737d8675a2bf1fb1c1acf}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zechao},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06b47d0dcf324aeafa35d1a8666637ba}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jingdong},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{135283e6a54adc420780183f3898d7a2}
+      \strng{fullhash}{cfc0f7b57990863b81c2a76bdb84938c}
+      \strng{bibnamehash}{135283e6a54adc420780183f3898d7a2}
+      \strng{authorbibnamehash}{135283e6a54adc420780183f3898d7a2}
+      \strng{authornamehash}{135283e6a54adc420780183f3898d7a2}
+      \strng{authorfullhash}{cfc0f7b57990863b81c2a76bdb84938c}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Singular Value Fine-tuning: Few-shot Segmentation requires Few-parameters Fine-tuning}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2206.06122
+      \endverb
     \endentry
     \entry{wang2020frustratingly}{inproceedings}{}
       \name{author}{5}{}{%
@@ -2120,7 +2275,6 @@
       \range{pages}{10}
     \endentry
   \enddatalist
-  \missing{lora}
 \endrefsection
 \endinput
 
