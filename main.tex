@@ -18,7 +18,6 @@
 \usepackage{adjustbox}
 \usepackage{tikz}
 \usepackage{url}
-\usepackage{svg}
 \usetikzlibrary{positioning}
 
 \makeatletter
@@ -50,48 +49,66 @@
     \input{Frames/toc}
 
 
-    \section{Context \& Motivation}\label{sec:od-fsod}
+    \section{Introduction}\label{sec:od-fsod}
 
-    \subsection{Context \& Motivation - Détection d'objet few-shot}\label{subsec:few-shot-object-detection}
-    \input{Frames/frame_010}
-    \input{Frames/frame_011}
+    \subsection{Introduction - Principe de la détection d'objet}\label{subsec:object-detection}
+    \input{Frames/frame_od}
 
-    \subsection{Context \& Motivation - Détection d'objet few-shot cross-domain}\label{subsec:cd-fsod}
-    \input{Frames/frame_012}
+    \subsection{Introduction - Motivation de la détection d'objet few-shot}\label{subsec:fs-od-motivation}
+    \input{Frames/frame_fsodmotivation}
 
-    \input{Frames/frame_021}
-    \input{Frames/frame_031}
-    \input{Frames/frame_032}
-    \input{Frames/frame_033}
+
+    \section{Détection d'objet few-shot}\label{sec:fs-od-fsod}
+
+    \subsection{Détection d'objet few-shot - Principe et définitions}\label{subsec:fs-od-definition}
+    \input{Frames/frame_fsod}
+
+    \subsection{Détection d'objet few-shot - Principales méthodes de l'État de l'art}\label{subsec:fs-od-sota}
+    \input{Frames/frame_fsodsota}
+
+    \subsection{Détection d'objet few-shot - Cross-domain}\label{subsec:fs-od-cd}
+    \input{Frames/frame_cdfsod}
+
+
+    \section{Challenges de la détection d'objet few-shot sur les images aériennes}\label{sec:fs-od-challenges}
+    \input{Frames/frame_smallobjects}
+    \input{Frames/frame_smoanalysis}
+
+
+    \section{Méthode PEFT (Parameter Efficient Fine-Tuning)}\label{sec:peft}
+
+    \subsection{Méthode PEFT - Principe}\label{subsec:peft-principle}
+
+    \subsection{Méthode PEFT - LoRA Low Rank Adaptation}\label{subsec:peft-lora}
+    \input{Frames/frame_lora}
+
+    \subsection{Méthode PEFT - SVF Singular Value Fine-tuning}\label{subsec:peft-svf}
     \input{Frames/frame_svf}
+
+
+    \section{Mon approche}\label{sec:approach}
+
+    \subsection{Mon approche - Vu d'ensemble de mes publications}\label{subsec:approach-publications}
+    \input{Frames/frame_publications}
+
+    \subsection{Mon approche - Travaux future}\label{subsec:approach-future-work}
+    \input{Frames/frame_approach}
+
+    \section{Premiers résultats}\label{sec:results}
+
+    \subsection{Premiers résultats - Importance du dataset source}\label{subsec:results-srcdata}
     \input{Frames/frame_srcdata}
+
+
+    \subsection{Premiers résultats - Variances inter-classes et intra-classes}\label{subsec:results-variances}
+    \input{Frames/frame_variances}
+    \input{Frames/frame_representation}
+
+    \subsection{Premiers résultats - Overfitting pour la regression}\label{subsec:results-loracurves}
     \input{Frames/frame_loracurves}
 
-    \section{Proposed Approaches}
 
-%     \subsection{Prototypical Faster R-CNN}
-%     \input{Frames/frame_040.tex}
-
-%    \subsection{Proposed Approaches - Diffusion Based Models}
-%    \input{Frames/frame_041}
-%
-%    \subsection{Proposed Approaches - Few-Shot DiffusionDet}
-%    \input{Frames/frame_042}
-%
-%    \section{Results and Analysis}
-%    \subsection{Results and Analysis - Few-Shot Senarios}
-%    \input{Frames/frame_0435}
-%
-%    \input{Frames/frame_043}
-%
-%    \subsection{Results and Analysis - Cross-Domain Senarios}
-%    \input{Frames/frame_044}
-%
-%    \subsection{Perspectives}
-%
-%
-%    \section{Integration in CAMELEON}
-    \section{Conclusion and Perspectives}
+    \section{Conclusion}
     \input{Frames/conclusion}
 
     \usebeamertemplate{endpage}

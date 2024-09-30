@@ -1,30 +1,23 @@
 \begin{subsectionframemod}{Performance Analysis}
-%    Les grandes différences de taille moyenne entre les classes suggèrent d'analyser les performances par classe.
-%    \alert{Corrélation claire entre la taille moyenne des classes et les performances} par rapport à la référence.
 
-    \begin{figure}
+\begin{figure}[h]
         \centering
-        \begin{subfigure}{0.32\textwidth}
-            \includesvg{Figures/lora_1.svg}
-            \caption{Image 1}
+        \begin{subfigure}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora1.png}
         \end{subfigure}
-        \begin{subfigure}{0.32\textwidth}
-            \includesvg[width=\textwidth]{Figures/lora_2.svg}
-            \caption{Image 2}
+        \begin{subfigure}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora2.png}
         \end{subfigure}
-        \begin{subfigure}{0.32\textwidth}
-            \includesvg[width=\textwidth]{Figures/lora_3.svg}
-            \caption{Image 3}
+        \begin{subfigure}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora3.png}
         \end{subfigure}
-        \begin{subfigure}{0.32\textwidth}
-            \includesvg[width=\textwidth]{Figures/lora_4.svg}
-            \caption{Image 4}
+        \begin{subfigure}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora4.png}
         \end{subfigure}
-        \begin{subfigure}{0.32\textwidth}
-            \includesvg[width=\textwidth]{Figures/lora_5.svg}
-            \caption{Image 5}
+        \begin{subfigure}{0.3\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora5.png}
         \end{subfigure}
-        \caption{Analyse des performances par classe et comparaison avec la référence non few-shot sur DOTA, DIOR et Pascal VOC. (\cite{lejeune2022improving})}
+        \caption{Impact de LoRA sur l'entraînement de FSDiffusionDet sur DIOR en utilisant 10 shots.}
+        \label{fig:lora_curves}
     \end{figure}
-
 \end{subsectionframemod}
