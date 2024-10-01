@@ -1,41 +1,18 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\defcounter {refsection}{0}\relax 
 \beamer@subsectionintoc {1}{1}{Introduction - Principe de la détection d'objet}{3}{0}{1}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {1}{2}{Introduction - Motivation de la détection d'objet few-shot}{8}{0}{1}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Détection d'objet few-shot}{9}{0}{2}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{1}{Détection d'objet few-shot - Principe et définitions}{9}{0}{2}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{2}{Détection d'objet few-shot - Principales méthodes de l'État de l'art}{14}{0}{2}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {2}{3}{Détection d'objet few-shot - Cross-domain}{16}{0}{2}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Challenges de la détection d'objet few-shot sur les images aériennes}{19}{0}{3}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Méthode PEFT (Parameter Efficient Fine-Tuning)}{22}{0}{4}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{1}{Méthode PEFT - Principe}{22}{0}{4}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{2}{Méthode PEFT - LoRA Low Rank Adaptation}{22}{0}{4}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {4}{3}{Méthode PEFT - SVF Singular Value Fine-tuning}{23}{0}{4}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {5}{Mon approche}{24}{0}{5}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{1}{Mon approche - Vu d'ensemble de mes publications}{24}{0}{5}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {5}{2}{Mon approche - Travaux future}{25}{0}{5}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {6}{Premiers résultats}{26}{0}{6}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {6}{1}{Premiers résultats - Importance du dataset source}{26}{0}{6}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {6}{2}{Premiers résultats - Variances inter-classes et intra-classes}{27}{0}{6}
-\defcounter {refsection}{0}\relax 
-\beamer@subsectionintoc {6}{3}{Premiers résultats - Overfitting pour la regression}{29}{0}{6}
-\defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {7}{Conclusion}{30}{0}{7}
+\beamer@sectionintoc {2}{Détection d'objet few-shot}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Détection d'objet few-shot - Principe et définitions}{8}{0}{2}
+\beamer@sectionintoc {3}{Challenges de la détection d'objet few-shot sur les images aériennes}{13}{0}{3}
+\beamer@subsectionintoc {3}{1}{Détection d'objet few-shot - Cross-domain}{16}{0}{3}
+\beamer@sectionintoc {4}{Méthode PEFT (Parameter Efficient Fine-Tuning)}{20}{0}{4}
+\beamer@subsectionintoc {4}{1}{Méthode PEFT - Principe}{20}{0}{4}
+\beamer@subsectionintoc {4}{2}{Méthode PEFT - LoRA Low Rank Adaptation}{20}{0}{4}
+\beamer@subsectionintoc {4}{3}{Méthode PEFT - SVF Singular Value Fine-tuning}{26}{0}{4}
+\beamer@sectionintoc {5}{Mon approche}{27}{0}{5}
+\beamer@subsectionintoc {5}{1}{Mon approche - Vu d'ensemble de mes publications}{27}{0}{5}
+\beamer@subsectionintoc {5}{2}{Mon approche - Travaux future}{28}{0}{5}
+\beamer@sectionintoc {6}{Premiers résultats}{29}{0}{6}
+\beamer@subsectionintoc {6}{1}{Premiers résultats - Importance du dataset source}{29}{0}{6}
+\beamer@subsectionintoc {6}{2}{Premiers résultats - Variances inter-classes et intra-classes}{30}{0}{6}
+\beamer@subsectionintoc {6}{3}{Premiers résultats - Overfitting pour la regression}{32}{0}{6}
+\beamer@sectionintoc {7}{Conclusion}{33}{0}{7}
