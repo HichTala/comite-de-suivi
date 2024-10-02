@@ -1,0 +1,20 @@
+\begin{table}[h]
+
+    \label{tab:comparison}
+    \begin{adjustbox}{width=0.75\textwidth}
+        \rowcolors{2}{gray!25}{white}
+        % \begin{tabular}{lllTLLT}
+        \begin{tabular}{@{}lc}
+            \begin{tabular}{@{}lcc}
+                \toprule[1pt]
+                & \textbf{DOTA} & \textbf{DIOR} \\ \hline
+                Few-shot              & 60.45         & 57.51         \\
+                Cross-domain Few-shot (COCO) & 25.02         & 38.73         \\\bottomrule[1pt]
+                Cross-domain Few-shot (DOTA) & \_         & 38.44         \\\bottomrule[1pt]
+                Cross-domain Few-shot (DIOR) & 33.30         & \_         \\\bottomrule[1pt]
+            \end{tabular}%
+        \end{tabular}%
+    \end{adjustbox}
+    \caption{Comparaison des performances de DiffusionDet (\cite{chen2022diffusiondet}) en Few-shot et en Cross-domain Few-shot sur DOTA et DIOR en considérant 3 dataset source (notés entre paranthèse) avec 10 shots.}
+
+\end{table}

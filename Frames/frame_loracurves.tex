@@ -2,22 +2,34 @@
 
 \begin{figure}[h]
         \centering
-        \begin{subfigure}{0.3\textwidth}
-            \includegraphics[width=\textwidth]{Figures/lora1.png}
-        \end{subfigure}
-        \begin{subfigure}{0.3\textwidth}
-            \includegraphics[width=\textwidth]{Figures/lora2.png}
-        \end{subfigure}
-        \begin{subfigure}{0.3\textwidth}
-            \includegraphics[width=\textwidth]{Figures/lora3.png}
-        \end{subfigure}
-        \begin{subfigure}{0.3\textwidth}
+        \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\textwidth]{Figures/lora4.png}
         \end{subfigure}
-        \begin{subfigure}{0.3\textwidth}
+        \begin{subfigure}{0.5\textwidth}
             \includegraphics[width=\textwidth]{Figures/lora5.png}
         \end{subfigure}
-        \caption{Impact de LoRA sur l'entraînement de FSDiffusionDet sur DIOR en utilisant 10 shots.}
+        \caption{Impact de LoRA sur l'entraînement de FSDiffusionDet sur DIOR en utilisant 10 shots et un rang de 16.}
         \label{fig:lora_curves}
+    \end{figure}
+\end{subsectionframemod}
+
+\begin{subsectionframemod}{Performance Analysis}
+
+\begin{figure}[h]
+        \centering
+        \begin{subfigure}{0.45\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora_rank1.png}
+        \end{subfigure}
+        \begin{subfigure}{0.45\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora_rank2.png}
+        \end{subfigure}
+        \begin{subfigure}{0.45\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora_rank3.png}
+        \end{subfigure}
+        \begin{subfigure}{0.45\textwidth}
+            \includegraphics[width=\textwidth]{Figures/lora_rank4.png}
+        \end{subfigure}
+        \caption{Impact du rang de LoRA sur l'entraînement de FSDiffusionDet sur DIOR en utilisant 10 shots.}
+        \label{fig:lora_curves2}
     \end{figure}
 \end{subsectionframemod}
