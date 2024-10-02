@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.1)  1 OCT 2024 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.1)  2 OCT 2024 11:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1570,7 +1570,7 @@ ut line 65.
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-<Figures/P0770.jpg, id=53, 1616.0375pt x 1363.0925pt>
+<Figures/P0770.jpg, id=52, 1616.0375pt x 1363.0925pt>
 File: Figures/P0770.jpg Graphic file (type jpg)
 <use Figures/P0770.jpg>
 Package pdftex.def Info: Figures/P0770.jpg  used on input line 65.
@@ -1666,17 +1666,17 @@ File: Figures/P0770.jpg Graphic file (type jpg)
 <use Figures/P0770.jpg>
 Package pdftex.def Info: Figures/P0770.jpg  used on input line 72.
 (pdftex.def)             Requested size: 85.35826pt x 71.98564pt.
-<Figures/P0131.jpg, id=108, 1541.76pt x 1284.8pt>
+<Figures/P0131.jpg, id=107, 1541.76pt x 1284.8pt>
 File: Figures/P0131.jpg Graphic file (type jpg)
 <use Figures/P0131.jpg>
 Package pdftex.def Info: Figures/P0131.jpg  used on input line 72.
 (pdftex.def)             Requested size: 42.67912pt x 35.56245pt.
-<Figures/P0168.jpg, id=109, 2312.64pt x 1798.72pt>
+<Figures/P0168.jpg, id=108, 2312.64pt x 1798.72pt>
 File: Figures/P0168.jpg Graphic file (type jpg)
 <use Figures/P0168.jpg>
 Package pdftex.def Info: Figures/P0168.jpg  used on input line 72.
 (pdftex.def)             Requested size: 42.67912pt x 33.18248pt.
-<Figures/P0352.jpg, id=110, 1408.26125pt x 1270.7475pt>
+<Figures/P0352.jpg, id=109, 1408.26125pt x 1270.7475pt>
 File: Figures/P0352.jpg Graphic file (type jpg)
 <use Figures/P0352.jpg>
 Package pdftex.def Info: Figures/P0352.jpg  used on input line 72.
@@ -1748,7 +1748,7 @@ Section
 3
 Tot section
 \c@totalsection@totc 
-<Figures/object_sizes.png, id=130, 971.3088pt x 546.843pt>
+<Figures/object_sizes.png, id=129, 971.3088pt x 546.843pt>
 File: Figures/object_sizes.png Graphic file (type png)
 <use Figures/object_sizes.png>
 Package pdftex.def Info: Figures/object_sizes.png  used on input line 17.
@@ -1769,7 +1769,7 @@ Section
 3
 Tot section
 \c@totalsection@totc 
-<Figures/dataset_comparison.png, id=150, 937.5828pt x 645.612pt>
+<Figures/dataset_comparison.png, id=149, 937.5828pt x 645.612pt>
 File: Figures/dataset_comparison.png Graphic file (type png)
 <use Figures/dataset_comparison.png>
 Package pdftex.def Info: Figures/dataset_comparison.png  used on input line 13.
@@ -1791,7 +1791,7 @@ Section
 3
 Tot section
 \c@totalsection@totc 
-<Figures/performance_comparison.png, id=162, 1216.0632pt x 790.152pt>
+<Figures/performance_comparison.png, id=161, 1216.0632pt x 790.152pt>
 File: Figures/performance_comparison.png Graphic file (type png)
 <use Figures/performance_comparison.png>
 Package pdftex.def Info: Figures/performance_comparison.png  used on input line
@@ -1813,10 +1813,10 @@ Section
 3
 Tot section
 \c@totalsection@totc 
-<Figures/cross_domain_1.png, id=173, 1305.87875pt x 898.35625pt>
+<Figures/cross_domain_1.png, id=172, 1305.87875pt x 898.35625pt>
 File: Figures/cross_domain_1.png Graphic file (type png)
 <use Figures/cross_domain_1.png>
-Package pdftex.def Info: Figures/cross_domain_1.png  used on input line 38.
+Package pdftex.def Info: Figures/cross_domain_1.png  used on input line 37.
 (pdftex.def)             Requested size: 184.3758pt x 126.82451pt.
 Section
 3
@@ -1825,10 +1825,10 @@ Tot section
 [16
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/cross_domain_1.png>]
-<Figures/cross_domain_2.png, id=184, 1305.87875pt x 898.35625pt>
+<Figures/cross_domain_2.png, id=183, 1305.87875pt x 898.35625pt>
 File: Figures/cross_domain_2.png Graphic file (type png)
 <use Figures/cross_domain_2.png>
-Package pdftex.def Info: Figures/cross_domain_2.png  used on input line 38.
+Package pdftex.def Info: Figures/cross_domain_2.png  used on input line 37.
 (pdftex.def)             Requested size: 184.3758pt x 126.82451pt.
 
 Section
@@ -1838,10 +1838,10 @@ Tot section
 [17
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/cross_domain_2.png>]
-<Figures/cross_domain_3.png, id=192, 1305.87875pt x 898.35625pt>
+<Figures/cross_domain_3.png, id=191, 1305.87875pt x 898.35625pt>
 File: Figures/cross_domain_3.png Graphic file (type png)
 <use Figures/cross_domain_3.png>
-Package pdftex.def Info: Figures/cross_domain_3.png  used on input line 38.
+Package pdftex.def Info: Figures/cross_domain_3.png  used on input line 37.
 (pdftex.def)             Requested size: 184.3758pt x 126.82451pt.
 
 Section
@@ -1851,10 +1851,10 @@ Tot section
 [18
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/cross_domain_3.png>]
-<Figures/cross_domain_4.png, id=200, 1305.87875pt x 898.35625pt>
+<Figures/cross_domain_4.png, id=199, 1305.87875pt x 898.35625pt>
 File: Figures/cross_domain_4.png Graphic file (type png)
 <use Figures/cross_domain_4.png>
-Package pdftex.def Info: Figures/cross_domain_4.png  used on input line 38.
+Package pdftex.def Info: Figures/cross_domain_4.png  used on input line 37.
 (pdftex.def)             Requested size: 184.3758pt x 126.82451pt.
 
 Section
@@ -1864,12 +1864,125 @@ Tot section
 [19
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/cross_domain_4.png>]) (/
-home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_lora.tex
+home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_srcdata.tex
+Section
+3
+Tot section
+\c@totalsection@totc 
+
+(/home/hicham/PycharmProjects/comite-de-suivi/Tables/source_dataset_comparison.
+tex)
+Section
+3
+Tot section
+\c@totalsection@totc 
+[20
+
+]) (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_embeddings.tex
+Section
+3
+Tot section
+\c@totalsection@totc 
+File: Figures/cross_domain_1.png Graphic file (type png)
+<use Figures/cross_domain_1.png>
+Package pdftex.def Info: Figures/cross_domain_1.png  used on input line 24.
+(pdftex.def)             Requested size: 184.3758pt x 126.82451pt.
+Section
+3
+Tot section
+\c@totalsection@totc 
+[21
+
+]
+File: Figures/cross_domain_2.png Graphic file (type png)
+<use Figures/cross_domain_2.png>
+Package pdftex.def Info: Figures/cross_domain_2.png  used on input line 24.
+(pdftex.def)             Requested size: 184.3758pt x 126.82451pt.
+
+Section
+3
+Tot section
+\c@totalsection@totc 
+[22
+
+]
+<Figures/embeddings.png, id=233, 1491.5725pt x 851.18pt>
+File: Figures/embeddings.png Graphic file (type png)
+<use Figures/embeddings.png>
+Package pdftex.def Info: Figures/embeddings.png  used on input line 24.
+(pdftex.def)             Requested size: 184.3758pt x 105.21533pt.
+
+Section
+3
+Tot section
+\c@totalsection@totc 
+[23
+
+ </home/hicham/PycharmProjects/comite-de-suivi/Figures/embeddings.png>])
+(/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_variances.tex
+Section
+3
+Tot section
+\c@totalsection@totc 
+<Figures/con_sep.png, id=242, 201.48pt x 130.086pt>
+File: Figures/con_sep.png Graphic file (type png)
+<use Figures/con_sep.png>
+Package pdftex.def Info: Figures/con_sep.png  used on input line 18.
+(pdftex.def)             Requested size: 50.36987pt x 32.52141pt.
+<Figures/ncon_sep.png, id=243, 374.052pt x 230.388pt>
+File: Figures/ncon_sep.png Graphic file (type png)
+<use Figures/ncon_sep.png>
+Package pdftex.def Info: Figures/ncon_sep.png  used on input line 18.
+(pdftex.def)             Requested size: 93.51277pt x 57.59685pt.
+<Figures/con_nsep.png, id=244, 159.87pt x 128.334pt>
+File: Figures/con_nsep.png Graphic file (type png)
+<use Figures/con_nsep.png>
+Package pdftex.def Info: Figures/con_nsep.png  used on input line 18.
+(pdftex.def)             Requested size: 39.96739pt x 32.08342pt.
+<Figures/ncon_nsep.png, id=245, 297.183pt x 213.744pt>
+File: Figures/ncon_nsep.png Graphic file (type png)
+<use Figures/ncon_nsep.png>
+Package pdftex.def Info: Figures/ncon_nsep.png  used on input line 18.
+(pdftex.def)             Requested size: 74.29556pt x 53.43587pt.
+Section
+3
+Tot section
+\c@totalsection@totc 
+[24
+
+ </home/hicham/PycharmProjects/comite-de-suivi/Figures/con_sep.png> </home/hich
+am/PycharmProjects/comite-de-suivi/Figures/ncon_sep.png> </home/hicham/PycharmP
+rojects/comite-de-suivi/Figures/con_nsep.png> </home/hicham/PycharmProjects/com
+ite-de-suivi/Figures/ncon_nsep.png>])
+(/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_representation.tex
+Section
+3
+Tot section
+\c@totalsection@totc 
+<Figures/deepfruits.png, id=258, 602.7318pt x 587.5551pt>
+File: Figures/deepfruits.png Graphic file (type png)
+<use Figures/deepfruits.png>
+Package pdftex.def Info: Figures/deepfruits.png  used on input line 20.
+(pdftex.def)             Requested size: 150.57372pt x 146.78082pt.
+<Figures/2d_class_plot.png, id=259, 596.2275pt x 587.5551pt>
+File: Figures/2d_class_plot.png Graphic file (type png)
+<use Figures/2d_class_plot.png>
+Package pdftex.def Info: Figures/2d_class_plot.png  used on input line 20.
+(pdftex.def)             Requested size: 150.57372pt x 148.37666pt.
+Section
+3
+Tot section
+\c@totalsection@totc 
+[25
+
+ </home/hicham/PycharmProjects/comite-de-suivi/Figures/deepfruits.png> </home/h
+icham/PycharmProjects/comite-de-suivi/Figures/2d_class_plot.png>])
+(/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_lora.tex
 Section
 4
 Tot section
 \c@totalsection@totc 
-<Figures/lora_1.png, id=210, 655.44875pt x 522.95375pt>
+<Figures/lora_1.png, id=275, 655.44875pt x 522.95375pt>
 File: Figures/lora_1.png Graphic file (type png)
 <use Figures/lora_1.png>
 Package pdftex.def Info: Figures/lora_1.png  used on input line 51.
@@ -1878,10 +1991,10 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-[20
+[26
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora_1.png>]
-<Figures/lora_2.png, id=223, 655.44875pt x 522.95375pt>
+<Figures/lora_2.png, id=288, 655.44875pt x 522.95375pt>
 File: Figures/lora_2.png Graphic file (type png)
 <use Figures/lora_2.png>
 Package pdftex.def Info: Figures/lora_2.png  used on input line 51.
@@ -1891,10 +2004,10 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-[21
+[27
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora_2.png>]
-<Figures/lora_3.png, id=231, 655.44875pt x 522.95375pt>
+<Figures/lora_3.png, id=296, 655.44875pt x 522.95375pt>
 File: Figures/lora_3.png Graphic file (type png)
 <use Figures/lora_3.png>
 Package pdftex.def Info: Figures/lora_3.png  used on input line 51.
@@ -1904,10 +2017,10 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-[22
+[28
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora_3.png>]
-<Figures/lora_4.png, id=239, 655.44875pt x 522.95375pt>
+<Figures/lora_4.png, id=304, 655.44875pt x 522.95375pt>
 File: Figures/lora_4.png Graphic file (type png)
 <use Figures/lora_4.png>
 Package pdftex.def Info: Figures/lora_4.png  used on input line 51.
@@ -1917,10 +2030,10 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-[23
+[29
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora_4.png>]
-<Figures/lora_5.png, id=247, 655.44875pt x 522.95375pt>
+<Figures/lora_5.png, id=312, 655.44875pt x 522.95375pt>
 File: Figures/lora_5.png Graphic file (type png)
 <use Figures/lora_5.png>
 Package pdftex.def Info: Figures/lora_5.png  used on input line 51.
@@ -1930,10 +2043,10 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-[24
+[30
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora_5.png>]
-<Figures/lora_6.png, id=255, 656.4525pt x 522.95375pt>
+<Figures/lora_6.png, id=320, 656.4525pt x 522.95375pt>
 File: Figures/lora_6.png Graphic file (type png)
 <use Figures/lora_6.png>
 Package pdftex.def Info: Figures/lora_6.png  used on input line 51.
@@ -1943,7 +2056,7 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-[25
+[31
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora_6.png>])
 (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_svf.tex
@@ -1951,165 +2064,82 @@ Section
 4
 Tot section
 \c@totalsection@totc 
-
-LaTeX Warning: File `Figures/svf.png' not found on input line 14.
-
-
-/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_svf.tex:14: Package p
-dftex.def Error: File `Figures/svf.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \end{subsectionframemod}
-                             
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<Figures/svf.png, id=330, 481.8pt x 424.58624pt>
+File: Figures/svf.png Graphic file (type png)
+<use Figures/svf.png>
+Package pdftex.def Info: Figures/svf.png  used on input line 14.
+(pdftex.def)             Requested size: 122.91406pt x 108.31665pt.
 Section
 4
 Tot section
 \c@totalsection@totc 
-[26
+[32
 
-])
-(/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_publications.tex
-Section
-5
-Tot section
-\c@totalsection@totc 
-Section
-5
-Tot section
-\c@totalsection@totc 
-[27
-
-]) (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_approach.tex
-Section
-5
-Tot section
-\c@totalsection@totc 
-Section
-5
-Tot section
-\c@totalsection@totc 
-[28
-
-]) (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_srcdata.tex
-Section
-6
-Tot section
-\c@totalsection@totc 
-
-(/home/hicham/PycharmProjects/comite-de-suivi/Tables/source_dataset_comparison.
-tex)
-Section
-6
-Tot section
-\c@totalsection@totc 
-[29
-
-]) (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_variances.tex
-Section
-6
-Tot section
-\c@totalsection@totc 
-<Figures/con_sep.png, id=308, 201.48pt x 130.086pt>
-File: Figures/con_sep.png Graphic file (type png)
-<use Figures/con_sep.png>
-Package pdftex.def Info: Figures/con_sep.png  used on input line 18.
-(pdftex.def)             Requested size: 50.36987pt x 32.52141pt.
-<Figures/ncon_sep.png, id=309, 374.052pt x 230.388pt>
-File: Figures/ncon_sep.png Graphic file (type png)
-<use Figures/ncon_sep.png>
-Package pdftex.def Info: Figures/ncon_sep.png  used on input line 18.
-(pdftex.def)             Requested size: 93.51277pt x 57.59685pt.
-<Figures/con_nsep.png, id=310, 159.87pt x 128.334pt>
-File: Figures/con_nsep.png Graphic file (type png)
-<use Figures/con_nsep.png>
-Package pdftex.def Info: Figures/con_nsep.png  used on input line 18.
-(pdftex.def)             Requested size: 39.96739pt x 32.08342pt.
-<Figures/ncon_nsep.png, id=311, 297.183pt x 213.744pt>
-File: Figures/ncon_nsep.png Graphic file (type png)
-<use Figures/ncon_nsep.png>
-Package pdftex.def Info: Figures/ncon_nsep.png  used on input line 18.
-(pdftex.def)             Requested size: 74.29556pt x 53.43587pt.
-Section
-6
-Tot section
-\c@totalsection@totc 
-[30
-
- </home/hicham/PycharmProjects/comite-de-suivi/Figures/con_sep.png> </home/hich
-am/PycharmProjects/comite-de-suivi/Figures/ncon_sep.png> </home/hicham/PycharmP
-rojects/comite-de-suivi/Figures/con_nsep.png> </home/hicham/PycharmProjects/com
-ite-de-suivi/Figures/ncon_nsep.png>])
-(/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_representation.tex
-Section
-6
-Tot section
-\c@totalsection@totc 
-<Figures/deepfruits.png, id=326, 602.7318pt x 587.5551pt>
-File: Figures/deepfruits.png Graphic file (type png)
-<use Figures/deepfruits.png>
-Package pdftex.def Info: Figures/deepfruits.png  used on input line 20.
-(pdftex.def)             Requested size: 150.57372pt x 146.78082pt.
-<Figures/2d_class_plot.png, id=327, 596.2275pt x 587.5551pt>
-File: Figures/2d_class_plot.png Graphic file (type png)
-<use Figures/2d_class_plot.png>
-Package pdftex.def Info: Figures/2d_class_plot.png  used on input line 20.
-(pdftex.def)             Requested size: 150.57372pt x 148.37666pt.
-Section
-6
-Tot section
-\c@totalsection@totc 
-[31
-
- </home/hicham/PycharmProjects/comite-de-suivi/Figures/deepfruits.png> </home/h
-icham/PycharmProjects/comite-de-suivi/Figures/2d_class_plot.png>])
+ </home/hicham/PycharmProjects/comite-de-suivi/Figures/svf.png>])
 (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_loracurves.tex
 Section
-6
+4
 Tot section
 \c@totalsection@totc 
-<Figures/lora1.png, id=344, 2537.48pt x 1332.98pt>
+<Figures/lora1.png, id=345, 2537.48pt x 1332.98pt>
 File: Figures/lora1.png Graphic file (type png)
 <use Figures/lora1.png>
 Package pdftex.def Info: Figures/lora1.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora2.png, id=345, 2537.48pt x 1332.98pt>
+<Figures/lora2.png, id=346, 2537.48pt x 1332.98pt>
 File: Figures/lora2.png Graphic file (type png)
 <use Figures/lora2.png>
 Package pdftex.def Info: Figures/lora2.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora3.png, id=346, 2537.48pt x 1332.98pt>
+<Figures/lora3.png, id=347, 2537.48pt x 1332.98pt>
 File: Figures/lora3.png Graphic file (type png)
 <use Figures/lora3.png>
 Package pdftex.def Info: Figures/lora3.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora4.png, id=347, 2537.48pt x 1332.98pt>
+<Figures/lora4.png, id=348, 2537.48pt x 1332.98pt>
 File: Figures/lora4.png Graphic file (type png)
 <use Figures/lora4.png>
 Package pdftex.def Info: Figures/lora4.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
-<Figures/lora5.png, id=348, 2537.48pt x 1332.98pt>
+<Figures/lora5.png, id=349, 2537.48pt x 1332.98pt>
 File: Figures/lora5.png Graphic file (type png)
 <use Figures/lora5.png>
 Package pdftex.def Info: Figures/lora5.png  used on input line 23.
 (pdftex.def)             Requested size: 92.1879pt x 48.40826pt.
 Section
-6
+4
 Tot section
 \c@totalsection@totc 
-[32
+[33
 
  </home/hicham/PycharmProjects/comite-de-suivi/Figures/lora1.png> </home/hicham
 /PycharmProjects/comite-de-suivi/Figures/lora2.png> </home/hicham/PycharmProjec
 ts/comite-de-suivi/Figures/lora3.png> </home/hicham/PycharmProjects/comite-de-s
 uivi/Figures/lora4.png> </home/hicham/PycharmProjects/comite-de-suivi/Figures/l
 ora5.png>])
-(/home/hicham/PycharmProjects/comite-de-suivi/Frames/conclusion.tex
+(/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_publications.tex
+Section
+6
+Tot section
+\c@totalsection@totc 
+Section
+6
+Tot section
+\c@totalsection@totc 
+[34
+
+]) (/home/hicham/PycharmProjects/comite-de-suivi/Frames/frame_approach.tex
+Section
+6
+Tot section
+\c@totalsection@totc 
+Section
+6
+Tot section
+\c@totalsection@totc 
+[35
+
+]) (/home/hicham/PycharmProjects/comite-de-suivi/Frames/conclusion.tex
 Section
 7
 Tot section
@@ -2118,7 +2148,7 @@ Section
 7
 Tot section
 \c@totalsection@totc 
-[33
+[36
 
 ])
 Section
@@ -2126,13 +2156,13 @@ Section
 Tot section
 \c@totalsection@totc 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 106.
+nput line 108.
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 106.
+nput line 108.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
-[34
+[37
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/usr/
 share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}]
@@ -2140,231 +2170,231 @@ Section
 7
 Tot section
 \c@totalsection@totc 
-<beamericonarticle.pdf, id=380, 11.00009pt x 14.0003pt>
+<beamericonarticle.pdf, id=403, 11.00009pt x 14.0003pt>
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <7> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 110.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 112.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 110.
+(Font)              using `OT1/cmss/bx/n' instead on input line 112.
 
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
 File: beamericonarticle.pdf Graphic file (type pdf)
 <use beamericonarticle.pdf>
-Package pdftex.def Info: beamericonarticle.pdf  used on input line 110.
+Package pdftex.def Info: beamericonarticle.pdf  used on input line 112.
 (pdftex.def)             Requested size: 11.00005pt x 14.00024pt.
-Section
-8
-Tot section
-\c@totalsection@totc 
-[35
-
- </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
-Section
-8
-Tot section
-\c@totalsection@totc 
-[36
-
-
-]
-Section
-8
-Tot section
-\c@totalsection@totc 
-[37
-
-
-]
 Section
 8
 Tot section
 \c@totalsection@totc 
 [38
 
+ </usr/share/texlive/texmf-dist/tex/latex/beamer/beamericonarticle.pdf>]
+Section
+8
+Tot section
+\c@totalsection@totc 
+[39
+
 
 ]
 Section
 8
 Tot section
 \c@totalsection@totc 
-[39
+[40
+
+
+]
+Section
+8
+Tot section
+\c@totalsection@totc 
+[41
+
+
+]
+Section
+8
+Tot section
+\c@totalsection@totc 
+[42
 
 
 ]
@@ -2401,11 +2431,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40868 strings out of 474222
- 845600 string characters out of 5748733
+ 40871 strings out of 474222
+ 845701 string characters out of 5748733
  1961975 words of memory out of 5000000
- 62177 multiletter control sequences out of 15000+600000
- 572672 words of font info for 88 fonts, out of 8000000 for 9000
+ 62171 multiletter control sequences out of 15000+600000
+ 572504 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,1940b,1870s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Fr
@@ -2418,11 +2448,11 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on /home/hicham/PycharmProjects/comite-de-suivi/main.pdf (39 pag
-es, 4839802 bytes).
+Output written on /home/hicham/PycharmProjects/comite-de-suivi/main.pdf (42 pag
+es, 4927617 bytes).
 PDF statistics:
- 558 PDF objects out of 1000 (max. 8388607)
- 397 compressed objects within 4 object streams
- 166 named destinations out of 1000 (max. 500000)
- 203 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 583 PDF objects out of 1000 (max. 8388607)
+ 413 compressed objects within 5 object streams
+ 172 named destinations out of 1000 (max. 500000)
+ 213 words of extra memory for PDF output out of 10000 (max. 10000000)
 
