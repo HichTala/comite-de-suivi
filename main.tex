@@ -49,7 +49,7 @@
     \input{Frames/toc}
 
 
-    \section{Introduction}\label{sec:od-fsod}
+    \section{Introduction à la détection d'objet et la détection d'objet few-shot}\label{sec:od-fsod}
 
     \subsection{Introduction - Principe de la détection d'objet}\label{subsec:object-detection}
     \input{Frames/frame_od}
@@ -57,54 +57,49 @@
 
     \section{Détection d'objet few-shot}\label{sec:fs-od-fsod}
 
-    \subsection{Détection d'objet few-shot - Principe et définitions}\label{subsec:fs-od-definition}
+    \subsection{Introduction - Principe de la détection d'objet few-shot}\label{subsec:fs-od-definition}
     \input{Frames/frame_fsod}
 
-    \section{Challenges de la détection d'objet few-shot sur les images aériennes}\label{sec:fs-od-challenges}
+    \subsection{Introduction - Challenges de la détection d'objet few-shot sur les images aériennes}\label{sec:fs-od-challenges}
     \input{Frames/frame_smallobjects}
 %    \input{Frames/frame_smoanalysis}
 
-    \subsection{Détection d'objet few-shot - Cross-domain}\label{subsec:fs-od-cd}
+    \section{Axes de recherche autour de la détection d'objet few-shot cross-domain}\label{subsec:fs-od-cd}
+    \subsection{Principe de la détection d'objet few-shot cross-domain}\label{subsec:fs-od-cd-principle}
     \input{Frames/frame_cdfsod}
+    \subsection{3 Axes de recherche principaux}\label{subsec:fs-od-cd-research}
+    \input{Frames/frame_research}
+    \subsection{Etat de l'art des modèles de cross-domain}\label{subsec:fs-od-cd-sota}
     \input{Frames/frame_fsodsota}
 
-    \subsection{Premiers résultats - Importance du dataset source}\label{subsec:results-srcdata}
+    \subsection{Importance du dataset source}\label{subsec:srcdata}
     \input{Frames/frame_srcdata}
 
 
-    \subsection{Premiers résultats - Variances inter-classes et intra-classes}\label{subsec:results-variances}
+    \subsection{Estimation de l'écart entre domaines}\label{subsec:results-variances}
     \input{Frames/frame_embeddings}
+    \input{Frames/frame_data_embeddings}
     \input{Frames/frame_variances}
     \input{Frames/frame_representation}
 
-    \section{Méthode PEFT (Parameter Efficient Fine-Tuning)}\label{sec:peft}
-
-    \subsection{Méthode PEFT - Principe}\label{subsec:peft-principle}
-
-    \subsection{Méthode PEFT - LoRA Low Rank Adaptation}\label{subsec:peft-lora}
+    \subsection{Méthodes PEFT (Parameter Efficient Fine-Tuning) pour limiter l'overfitting}\label{sec:peft}
     \input{Frames/frame_lora}
-
-    \subsection{Méthode PEFT - SVF Singular Value Fine-tuning}\label{subsec:peft-svf}
     \input{Frames/frame_svf}
 
-    \subsection{Premiers résultats - Overfitting pour la regression}\label{subsec:results-loracurves}
+    \subsection{Premiers résultats avec LoRA}\label{subsec:results-loracurves}
     \input{Frames/frame_loracurves}
 
-    \section{Mon approche}\label{sec:approach}
-
-
-    \section{Premiers résultats}\label{sec:results}
 
 
 
-
-    \subsection{Mon approche - Vu d'ensemble de mes publications}\label{subsec:approach-publications}
+    \section{Contributions scientifiques}\label{subsec:approach-publications}
     \input{Frames/frame_publications}
 
-    \subsection{Mon approche - Travaux future}\label{subsec:approach-future-work}
+    \section{Travaux future}\label{subsec:approach-future-work}
     \input{Frames/frame_approach}
-    \section{Conclusion}
-    \input{Frames/conclusion}
+
+    \section{Formations}\label{subsec:formations}
+    \input{Frames/frame_administration}
 
     \usebeamertemplate{endpage}
 
