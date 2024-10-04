@@ -1,0 +1,14 @@
+\begin{subsectionframemod}{Publications}
+    \textbf{Les principaux travaux réalisés au cours de l'année :}
+    \textbf{Principale technique de fine-tuning considérée :}
+    \begin{itemize}
+        \item[-] \textbf{Full Fine-tuning} : Ajuster tous les paramètres du modèle. C'est coûteux en temps et en mémoire.
+        \item[-] \textbf{Tête seulement} : Seule la tête du modèle (la dernière couche) est fine-tunée.
+        \item[-] \textbf{Bias seulement} : Seuls les biais des couches sont ajustés.
+        \item[-] \textbf{Norm seulement} : Les couches de normalisation (comme BatchNorm) sont ajustées.
+        \item[-] \textbf{LoRA} : Ajoute des matrices de faible rang aux poids du modèle pour réduire le nombre de paramètres à fine-tuner.
+        \item[-] \textbf{SVF} : Utilise la décomposition en valeurs singulières (SVD) pour ajuster les paramètres du modèle dans des sous-espaces spécifiques.
+    \end{itemize}
+
+\end{subsectionframemod}
+

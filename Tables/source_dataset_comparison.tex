@@ -3,7 +3,7 @@
     \resizebox{0.9\columnwidth}{!}{%
         \begin{tabular}{@{\hspace{2mm}}ccccccccc@{\hspace{2mm}}}
             \toprule
-            \textbf{$k$ shots} & \textbf{DOTA $\to$ DIOR} & \textbf{COCO $\to$ DIOR} & \textbf{DIOR $\to$ DOTA} & \textbf{COCO $\to$ DOTA} & \textbf{DOTA $\to$ DOTA} & \textbf{DIOR $\to$ DIOR}      \\ \midrule
+            \textbf{$k$ shots} & \textbf{DOTA $\to$ DIOR} & \textbf{COCO $\to$ DIOR} & \textbf{DIOR $\to$ DOTA} & \textbf{COCO $\to$ DOTA} & \textbf{DOTA $\to$ DOTA\footnote{Cette notation est utilisée pour signifier le few-shot "classique" sans cross-domain ; les classes de bases et les classes nouvelles appartenant donc au même dataset}} & \textbf{DIOR $\to$ DIOR\footnotemark[1]}      \\ \midrule
             \textbf{1}         & \textbf{20.18}           & 11.10                    & \textbf{5.41}            & 4.03                     & \_                       & \_                       \\
             \textbf{5}         & \textbf{34.43}           & 30.42                    & \textbf{25.88}           & 14.45                    & \_                       & \_                       \\
             \textbf{10}        & \textbf{41.48}           & 38.73                    & \textbf{31.99}           & 25.02                    & 60.45                    & 57.51                    \\
@@ -11,7 +11,7 @@
             \textbf{50}        & 54.07                    & \textbf{56.97}           & \textbf{44.07}           & 43.23                    & \_                       & \_                       \\ \bottomrule[1pt]
         \end{tabular}%
     } \caption{Comparaison des performances de FSDiffusionDet en utilisant différents datasets sources pour la détection d'objet cross-domain.
-    Les performances sont évaluées en mAP (\%) rapporté avec un seuil IoU à 0.5.}
+    Les performances sont évaluées en mAP (\%) rapporté avec un seuil IoU à 0.5, en fonction de la combinaison \textit{dataset source $\to$ dataset cible}. Seulement la tête de classification et de regressin est fine-tunée.}
     \label{tab:cd_fsod_dota2dior}
     \vspace{-1.5em}
 \end{table}
